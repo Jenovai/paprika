@@ -1,0 +1,38 @@
+body{
+    background-color: #FFEFD5;
+    color: #8b4513
+}
+
+.fejlec{
+    background-image: url(./img/szines.jpg);
+}
+
+.menu{
+    width: 25%;
+    float: left;
+}
+
+.fokeret{
+    width: 75%;
+}
+
+table{
+    width: 300px;
+}
+
+.jobb{
+    width: 120px;
+}
+
+.zold{
+    background-color: green;
+}
+.sarga{
+    background-color: yellow;
+}
+.piros{
+    background-color: red;
+}
+.lila{
+    background-color: purple;
+}
