@@ -1,38 +1,76 @@
 body{
+    width: 1000px;
     background-color: #FFEFD5;
-    color: #8b4513
+    color: #8b4513;
+    margin: auto;
 }
 
+
 .fejlec{
-    background-image: url(./img/szines.jpg);
+    background-image: url(../img/szines.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: black;
+    padding: 10px 0 10px 20px;
 }
 
 .menu{
-    width: 25%;
+    width: 290px;
+    padding: 10px;
     float: left;
 }
 
-.fokeret{
-    width: 75%;
+.menu ul li{
+    list-style-image: url(../img/chili-pepper-icon.gif);
+    border: solid 1px rgb(31, 154, 255);
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.menu ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.tartalom{
+    width: 665px;
+    padding: 10px;
+    display: inline-block;
+}
+
+table, td{
+    border: 1px solid black;
+    padding: 5px;
+    width: 174px;
+    font-size: 17px;
 }
 
 table{
     width: 300px;
+    border-collapse:collapse;
+    margin: auto;
 }
 
-.jobb{
-    width: 120px;
+table .jobb{
+    width: 119px;
+    text-align: center;
+    padding: 2px 0;
 }
 
 .zold{
-    background-color: green;
+    background-color: rgb(0, 255, 0);
 }
+
 .sarga{
-    background-color: yellow;
+    background-color: rgba(255, 255, 124, 0.486);
 }
+
 .piros{
-    background-color: red;
+    background-color: rgb(248, 93, 93);
 }
+
 .lila{
-    background-color: purple;
+    background-color: rgb(255, 89, 255);
 }
